@@ -14,7 +14,7 @@ if (opçãoCarta == "s") {
 let opçãoCarro = prompt("você tem carro? (s/n)")
 if (opçãoCarro == "s") {
     temCarro = true
-
+}
     //exibindo mensagem no console
     if (idade < 18 || !temCarta) {
         console.log (nome +", você não pode dirigir")
