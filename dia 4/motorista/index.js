@@ -17,9 +17,9 @@ if (opçãoCarro == "s") {
 }
     //exibindo mensagem no console
     if (idade < 18 || !temCarta) {
-        console.log (nome +", você não pode dirigir.")
+        console.log (nome +", você não pode dirigir")
     } else if (idade >= 18 && temCarta && !temCarro) {
-        console.log (nome +", você pode dirigir, mas não tem um carro.")
+        console.log (nome +", você pode dirigir, mas não tem um carro")
     } else {
-        console.log (nome +", você será o motorista.")
+        console.log (nome +", você será o motorista")
     }
