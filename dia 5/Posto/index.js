@@ -6,16 +6,16 @@ let opção = prompt("Bem vindo ao nosso posto de gasolina!, você deseja: " + "
 // Criando switchcase
 switch (opção){
     case "1": 
-    valor parseInt(prompt("Digite o valor desejado para abastecer: "))
-    quantidade = valor / 5
-    console.log("foram abastecidos " + quantidade + "L de gasolina")
-    break;
+        valor parseInt(prompt("Digite o valor desejado para abastecer: "))
+        quantidade = valor / 5
+        console.log("foram abastecidos " + quantidade + "L de gasolina")
+        break;
     case "2":
         valor = parseInt(prompt("Digite o valor desejado para abastecer: "))
         quantidade = valor / 3
         console.log("Foram abastecidos " + quantidade + "L de álcool") 
         break;
-        default:
-            console.log("Pneeus calibrados com sucesso")
-            break;
+    default:
+        console.log("Pneus calibrados com sucesso")
+        break;
 }
