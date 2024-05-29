@@ -6,7 +6,7 @@ let opção = parseInt(prompt("Escolha a operação que deseja realizar:" + "\n1
 // Criando switch case 
 switch  (opção) { 
     case 1:
-        console.log(nm1 + "+" + num2 + "=" + (num1 + num2))
+        console.log(num1 + "+" + num2 + "=" + (num1 + num2))
         break;
     case 2:
         console.log(num1 + "-" + num2 + "=" + (num1 - num2))
@@ -15,6 +15,6 @@ switch  (opção) {
         console.log(num1 + "*" + num2 + "=" + (num1 * num2))
         break;
         default:
-            console.log(num1 + "/" + num2 + "=" + (num1 / num2))
-            break:
+            console.log(num1 + " / " + num2 + " = " + (num1 / num2))
+            break;
 }
