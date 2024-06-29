@@ -46,11 +46,11 @@ let anoVivido = anoNasc
 let idadeAtual = 0
 
 for (let anoVivido = anoNasc;  anoVivido <= anoAtual; anoVivido++){
-    console.log(" aniVivido: " + " - " + idadeAtual + "anos de idade")
+    console.log(" anoVivido: " + " - " + idadeAtual + "anos de idade")
 }
 
 // Loop Dowhile 
 do {
     //Inserir lógica anterior
     let continuar = prompt("Deseja inserir os dados novamente? (s/n)")
-} while (continuar == "s")
+} while (continuar == "s")  

@@ -1,4 +1,3 @@
-prompt("isira seus numeros e operadores")
 function Calculadora(numero1, numero2, operador) {
     let resultado
     let num1 = parseInt(numero1)
